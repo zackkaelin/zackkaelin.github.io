@@ -1,85 +1,64 @@
 <!DOCTYPE html>
 <html lan="en">
+    <style>
+    
+            .example {
+                color: red
+            }
+            .example2 {
+             background: green
+            }
+            a {
+                color: black
+                
+            }
+            section a {
+                color: blue
+            }
+            .container a {
+                color: green
+            }
+
+            p {
+                font-size: 12px !important;
+            }
+            p {
+                font-size: 32px;
+            }
+            nav li a {
+                color: red;
+            }
+             </style>
+            
     <head>
-        <title>Zack's HTML Assignment 1</title>
+        <title>Zack's HTML - Index</title>
  </head>
- <style>
-     * {
-         background-color: lightblue;
-     }
- </style>
- <body>
-    <header>
-        <h1>h1 is used to make large HTML Headings</h1>
-    </header>
-    <!-- This tag is used to add comments or explain what I'm doing with a code without making it visible on the webpage--->
-<p>The p tag is used to indicate paragraphs in a web document</p>
-<!--The br tag is used to indicate a break in the paragraph-->
-<br>
-<!--The tag below is used to add an image to the document, I decided to use this one because I like this band-->
-<p>
-    <img src="Santa Cruz.jfif" alt="Santa Cruz band" width="500">
-</p>
-<br>
-<!--This is an audio file i downloaded from youtube audio library for free-->
-<p>
-    <audio controls>
-        <source src="By the Fireplace - TrackTribe.mp3">
-    </audio>
-</p>
-<br>
-<!--To link a video you'd use the code below, for this I just used the video you provided for demonstration a few weeks ago-->
-<p>
-    <video controls>
-        <source src="movie.mp4">
-        <!--This is where I would put a track source if I had one to insert, track sources can be used to add subtitles or captions to media
-        <track src="...">-->
-        
-    </video>
-</p>
-<br>
-</p>
-<br>
-<p>
-    To add quotes you would use the <q>This is a quote inside a q tag</q>
-    <br>
-    If you want to make something bold do this <b> This is now bolded</b>
-    <br>
-    <small>If you want to make something small do this</small>
-    <br>
-    <u>To underline something use the u tag</u>
-    <br> 
-    <i>to italicize something you can use the i tag</i>
-</p>
-<br>
-<p>
-    This is a list of foods I eat regularly
-    <ul>
-        <li>pizza</li>
-        <li>tacos</li>
-        <li>carnitas</li>
-        <li>soup</li>
-    </ul>
-    In order here are my three favorite musical groups
-    <ol>
-        <li>Guns N Roses</li>
-        <li>Santa Cruz</li>
-        <li>Ozzy Osbourne</li>
-    </ol>
-    To make a descrptive list do this code
-    <dl>
-        <dt>Pizza</dt>
-        <dd>bread with sauce and toppings</dd>
-        <dt>Cereal</dt>
-        <dd>breakfast soup that uses milk as a base liquid</dd>
-      </dl>
-</p>
-<br>
-<p>
-    Finally to link a video to this
-    <br>
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/y4pGfTQx_hg"></iframe>
-</p>
+ <nav>
+    <a href="index.html">Home</a>
+    <a href="tags.html">Tags</a>
+    <a href="media.html">Media</a>
+    <a href="nested.html">Nested</a>
+</nav>
+<h1 class="example"> This is my main header</h1>
+<h2 class=" example example2"> This is my sub header</h2>
+
+<section class="container">
+    <p>This is my paragraph</p>
+        <a href="#"> This is my link</a>
+</section>
+
+<section>
+    <p>This is my 2nd paragraph</p>
+        <a href="#"> This is my 2nd link</a>
+
+</section>
+
+<nav>
+    <li>
+        <p>This is my 3rd paragraph</p>
+        <a href="#">This is the 3rd link</a>
+    </li>
+</nav>
 <footer>
     Zack Kaelin HTML Assignment 1
-</footer>
+</footer> 
