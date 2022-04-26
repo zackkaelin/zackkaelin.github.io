@@ -81,48 +81,6 @@ img {
     background-color: #ddd;
     color: black;
    }
-
-   /*h1 {
-    color: blue;
-    text-align:center;
-    background:scroll;
-    background-color: grey;
-    position: absolute;
-    top: 45px;
-    word-spacing: 5px;
-    }
-    h2 {
-        text-decoration: underline;
-        text-transform: capitalize;
-    }
-a {
-    color: black;
-    
-}
-body {
-   background: white;
-}
-section a {
-    color: red
-}
-.container a {
-    color: green
-}
-
-.Introduction{
-    font-size: 24px;
-    color: green;
-    text-align: center;
-}
- /*nav {
- overflow: hidden;
-    background-color:grey
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
- }*/
-
     footer {
         position: sticky;
         left: 0;
