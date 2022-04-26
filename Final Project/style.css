@@ -1,0 +1,133 @@
+ 
+  h1 {
+    padding-top: 45px;
+    text-align: center;
+    background-color: #C70039;
+}
+
+h2 {
+    text-align: center;
+}
+img { 
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    border:3px solid black;
+    
+}
+
+.column {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    height: 500px;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+
+}
+
+  p {
+    color: black;
+    font-family: 'century gothic';
+    font-size: 18px;
+    padding-left: 100px;
+    padding-right: 100px;
+    line-height: 30px; 
+    text-align: center;
+   }
+
+   button {
+    background-color: #333;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    opacity: 0.6;
+    transition: 0.3s;
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 2px;
+    font-family: serif;
+   }
+
+   #navbar{
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+   }
+
+   #navbar a {
+    float: left;
+    display: block;
+    color: linen;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family:serif;
+   }
+
+   #navbar a:hover {
+    background-color: #ddd;
+    color: black;
+   }
+
+   /*h1 {
+    color: blue;
+    text-align:center;
+    background:scroll;
+    background-color: grey;
+    position: absolute;
+    top: 45px;
+    word-spacing: 5px;
+    }
+    h2 {
+        text-decoration: underline;
+        text-transform: capitalize;
+    }
+a {
+    color: black;
+    
+}
+body {
+   background: white;
+}
+section a {
+    color: red
+}
+.container a {
+    color: green
+}
+
+.Introduction{
+    font-size: 24px;
+    color: green;
+    text-align: center;
+}
+ /*nav {
+ overflow: hidden;
+    background-color:grey
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+ }*/
+
+    footer {
+        position: sticky;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        background-color: grey;
+    
+    }
